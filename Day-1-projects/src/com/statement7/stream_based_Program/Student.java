@@ -1,8 +1,8 @@
 package com.statement7.stream_based_Program;
 
-public class Student {
-
-	 int roll,age;
+public class Student
+{
+     int roll,age;
      String name,course;
      Student()
      {

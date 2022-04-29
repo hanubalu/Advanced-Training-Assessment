@@ -2,9 +2,9 @@ package com.statement7.stream_based_Program;
 
 import java.io.*;
 
-public class StudentDemo {
-
-	 public static void main(String args[])throws Exception
+public class StudentDemo
+{
+     public static void main(String args[])throws Exception
      {
           BufferedReader br=new BufferedReader(new InputStreamReader(System.in));
 
