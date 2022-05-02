@@ -12,7 +12,7 @@ public class DBUtil {
 
             Class.forName("com.mysql.cj.jdbc.Driver");
         	//DriverManager.registerDriver(new com.mysql.cj.jdbc.Driver());
-            conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/productdb", "root", "balu@1234");
+            conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/product", "root", "balu@1234");
            
         }
         catch (Exception e)
